@@ -1,0 +1,18 @@
+export class students {
+  id;
+  familyname;
+  givenname;
+  department;
+  subject;
+  mentor;
+  id;
+  givenname;
+  familyname;
+  dob;
+  admitdate;
+  anticipatedgraduationdate;
+  
+  type;
+  ;
+}
+}

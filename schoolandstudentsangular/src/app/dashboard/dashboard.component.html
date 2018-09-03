@@ -1,0 +1,11 @@
+<h3>Schools and Students</h3>
+<div class="grid grid-pad">
+  <a *ngFor="students of schools" class="col-1-4"
+      routerLink="/detail/{{student.id}}">
+     
+    <div class="module student">
+      <h4>{{student.familyname}}</h4>
+   
+  </a>
+</div>
+</div>

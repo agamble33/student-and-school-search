@@ -1,0 +1,49 @@
+import { Component, OnInit } from '@angular/core';
+
+import { Student } from '../student';
+import { STUDENTS } from '../mock-students';
+import { StudentService } from '../student.service';
+
+@Component({
+  selector: 'app-student-list',
+  templateUrl: './student-list.component.html',
+  styleUrls: ['./student-list.component.css']
+})
+
+export class StudentListComponent implements OnInit {
+
+  students = STUDENTS;
+
+  selectedStudents: Student;
+
+  constructor(private studentService: StudentService) { }
+
+student: Student = {
+    id: 13741,
+    familyname: 'Ruiz'
+    givenname: 'Jackie'
+    department: 'Physics'
+    subject: 'Dynamics'
+    mentorid: '87505'
+    familynamementor: 'Aaron'
+    givennamementor: 'Conway'
+    dob: '1990-07-08'
+    admitdate: '2016-05-04 13:24:17-0500'
+    anticipatedgraduationdate: '2018-05-03'
+    school:
+  };
+
+    constructor(private studentService: StudentService) { }
+
+  ngOnInit() {
+  }
+ onSelect(student: Student): void {
+    this.selectedStudent = student;
+}
+
+   getStudents(): void {
+    this.studentService.getStudents()
+        .subscribe(students => this.students = students);
+  }
+
+}

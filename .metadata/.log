@@ -1,0 +1,547 @@
+!SESSION 2018-09-02 12:59:19.923 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-02 13:03:44.467
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Gam Fam'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.epp.mpc.ui 1 0 2018-09-02 13:16:53.530
+!MESSAGE Performing Marketplace install request from http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=3157661
+!SESSION 2018-09-02 13:22:17.758 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.ui 2 0 2018-09-02 13:26:06.030
+!MESSAGE Warnings while parsing the images from the 'org.eclipse.ui.commandImages' extension point.
+!SUBENTRY 1 org.eclipse.ui 2 0 2018-09-02 13:26:06.033
+!MESSAGE Cannot bind to an undefined command: plug-in='com.genuitec.eclipse.theming.ui', id='com.genuitec.myeclipse.help.darktheme.commandid'
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-09-02 13:26:08.063
+!MESSAGE A DevStyle Theme is being activated on this workspace; preparing colors and configuration
+
+!ENTRY com.genuitec.eclipse.theming.ui 1 0 2018-09-02 13:26:08.212
+!MESSAGE DevStyle has archived current color configurations to alternate preferences - will be restored when switching out of the DevStyle Theme
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-02 13:26:15.166
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Gam Fam'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-02 16:03:20.874
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-02 16:03:20.880
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface 4 0 2018-09-02 16:30:57.544
+!MESSAGE The command ("com.palantir.typescript.text.typeScriptEditor.correction.assist.proposals") is undefined
+!STACK 0
+java.lang.Exception
+	at org.eclipse.jface.action.ExternalActionManager$CommandCallback.isActive(ExternalActionManager.java:364)
+	at org.eclipse.jface.action.ActionContributionItem.isCommandActive(ActionContributionItem.java:626)
+	at org.eclipse.jface.action.ActionContributionItem.isVisible(ActionContributionItem.java:682)
+	at org.eclipse.ui.internal.PluginActionContributionItem.isVisible(PluginActionContributionItem.java:142)
+	at org.eclipse.jface.action.MenuManager.isChildVisible(MenuManager.java:982)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:752)
+	at org.eclipse.jface.action.MenuManager.update(MenuManager.java:669)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.scheduleManagerUpdate(MenuManagerRenderer.java:1214)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRenderer.subscribeUIElementTopicAllRenderedVisibility(MenuManagerRenderer.java:200)
+	at sun.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler$1.run(UIEventObjectSupplier.java:64)
+	at org.eclipse.swt.widgets.Synchronizer.syncExec(Synchronizer.java:233)
+	at org.eclipse.ui.internal.UISynchronizer.syncExec(UISynchronizer.java:144)
+	at org.eclipse.swt.widgets.Display.syncExec(Display.java:4889)
+	at org.eclipse.e4.ui.internal.workbench.swt.E4Application$1.syncExec(E4Application.java:212)
+	at org.eclipse.e4.ui.internal.di.UIEventObjectSupplier$UIEventHandler.handleEvent(UIEventObjectSupplier.java:61)
+	at org.eclipse.equinox.internal.event.EventHandlerWrapper.handleEvent(EventHandlerWrapper.java:201)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:197)
+	at org.eclipse.equinox.internal.event.EventHandlerTracker.dispatchEvent(EventHandlerTracker.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.ListenerQueue.dispatchEventSynchronous(ListenerQueue.java:148)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.dispatchEvent(EventAdminImpl.java:135)
+	at org.eclipse.equinox.internal.event.EventAdminImpl.sendEvent(EventAdminImpl.java:78)
+	at org.eclipse.equinox.internal.event.EventComponent.sendEvent(EventComponent.java:39)
+	at org.eclipse.e4.ui.services.internal.events.EventBroker.send(EventBroker.java:52)
+	at org.eclipse.e4.ui.internal.workbench.UIEventPublisher.notifyChanged(UIEventPublisher.java:60)
+	at org.eclipse.emf.common.notify.impl.BasicNotifierImpl.eNotify(BasicNotifierImpl.java:374)
+	at org.eclipse.e4.ui.model.application.ui.impl.UIElementImpl.setVisible(UIElementImpl.java:345)
+	at org.eclipse.e4.ui.workbench.renderers.swt.ContributionRecord.updateVisibility(ContributionRecord.java:102)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerRendererFilter.updateElementVisibility(MenuManagerRendererFilter.java:191)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.showMenu(MenuManagerShowProcessor.java:255)
+	at org.eclipse.e4.ui.workbench.renderers.swt.MenuManagerShowProcessor.menuAboutToHide(MenuManagerShowProcessor.java:112)
+	at org.eclipse.jface.internal.MenuManagerEventHelper.showEventPostHelper(MenuManagerEventHelper.java:92)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:471)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:497)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:256)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1103)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1084)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:5204)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4872)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:359)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1657)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2199)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5178)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:262)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:4279)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3811)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-09-02 19:48:21.539
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.forms.widgets.BusyIndicator.computeSize(BusyIndicator.java:85)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java:622)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.layout(TitleRegion.java:145)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.layout(TitleRegion.java:132)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1363)
+	at org.eclipse.swt.widgets.Composite.updateLayout(Composite.java:1348)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:702)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:653)
+	at org.eclipse.swt.widgets.Composite.layout(Composite.java:609)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion.setBusy(TitleRegion.java:444)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading.setBusy(FormHeading.java:987)
+	at org.eclipse.ui.forms.widgets.Form.setBusy(Form.java:721)
+	at org.eclipse.ui.forms.widgets.ScrolledForm.setBusy(ScrolledForm.java:244)
+	at org.eclipse.help.ui.internal.views.SearchPart$JobListener.run(SearchPart.java:194)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-09-02 19:48:21.583
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.forms.widgets.BusyIndicator.computeSize(BusyIndicator.java:85)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java:622)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.layout(TitleRegion.java:145)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.computeSize(TitleRegion.java:126)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.computeMinimumWidth(TitleRegion.java:235)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.computeSize(FormHeading.java:360)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.layout(FormHeading.java:217)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.computeMinimumWidth(FormHeading.java:132)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.forms.widgets.Form$FormLayout.computeMinimumWidth(Form.java:112)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.forms.widgets.SharedScrolledComposite.reflow(SharedScrolledComposite.java:184)
+	at org.eclipse.ui.forms.ManagedForm.reflow(ManagedForm.java:105)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.reflow(ReusableHelpPart.java:1141)
+	at org.eclipse.help.ui.internal.views.SearchResultsPart.reflow(SearchResultsPart.java:363)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.updateResults(EngineResultSection.java:445)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.lambda$1(EngineResultSection.java:266)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.lambda$0(EngineResultSection.java:262)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-09-02 19:48:21.623
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.forms.widgets.BusyIndicator.computeSize(BusyIndicator.java:85)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java:622)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.layout(TitleRegion.java:145)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.computeSize(TitleRegion.java:126)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.computeMinimumWidth(TitleRegion.java:235)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.computeSize(FormHeading.java:360)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.layout(FormHeading.java:217)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.computeMinimumWidth(FormHeading.java:132)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.forms.widgets.Form$FormLayout.computeMinimumWidth(Form.java:112)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.forms.widgets.SharedScrolledComposite.reflow(SharedScrolledComposite.java:184)
+	at org.eclipse.ui.forms.ManagedForm.reflow(ManagedForm.java:105)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.reflow(ReusableHelpPart.java:1141)
+	at org.eclipse.help.ui.internal.views.SearchResultsPart.reflow(SearchResultsPart.java:363)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.updateResults(EngineResultSection.java:445)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.lambda$1(EngineResultSection.java:266)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.lambda$0(EngineResultSection.java:262)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-09-02 19:48:21.803
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.forms.widgets.BusyIndicator.computeSize(BusyIndicator.java:85)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java:622)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.layout(TitleRegion.java:145)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.computeSize(TitleRegion.java:126)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.computeMinimumWidth(TitleRegion.java:235)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.computeSize(FormHeading.java:360)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.layout(FormHeading.java:217)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.computeMinimumWidth(FormHeading.java:132)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.forms.widgets.Form$FormLayout.computeMinimumWidth(Form.java:112)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.forms.widgets.SharedScrolledComposite.reflow(SharedScrolledComposite.java:184)
+	at org.eclipse.ui.forms.ManagedForm.reflow(ManagedForm.java:105)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.reflow(ReusableHelpPart.java:1141)
+	at org.eclipse.help.ui.internal.views.SearchResultsPart.reflow(SearchResultsPart.java:363)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.updateResults(EngineResultSection.java:445)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.lambda$1(EngineResultSection.java:266)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.lambda$0(EngineResultSection.java:262)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.ui 4 0 2018-09-02 19:48:21.865
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.ui.internal.forms.widgets.BusyIndicator.computeSize(BusyIndicator.java:85)
+	at org.eclipse.swt.widgets.Control.computeSize(Control.java:622)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.layout(TitleRegion.java:145)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.computeSize(TitleRegion.java:126)
+	at org.eclipse.ui.internal.forms.widgets.TitleRegion$TitleRegionLayout.computeMinimumWidth(TitleRegion.java:235)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.computeSize(FormHeading.java:360)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.layout(FormHeading.java:217)
+	at org.eclipse.ui.internal.forms.widgets.FormHeading$FormHeadingLayout.computeMinimumWidth(FormHeading.java:132)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.forms.widgets.Form$FormLayout.computeMinimumWidth(Form.java:112)
+	at org.eclipse.ui.forms.widgets.SizeCache.computeMinimumWidth(SizeCache.java:415)
+	at org.eclipse.ui.forms.widgets.SharedScrolledComposite.reflow(SharedScrolledComposite.java:184)
+	at org.eclipse.ui.forms.ManagedForm.reflow(ManagedForm.java:105)
+	at org.eclipse.help.ui.internal.views.ReusableHelpPart.reflow(ReusableHelpPart.java:1141)
+	at org.eclipse.help.ui.internal.views.SearchResultsPart.reflow(SearchResultsPart.java:363)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.updateResults(EngineResultSection.java:445)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.lambda$1(EngineResultSection.java:266)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.help.ui.internal.views.EngineResultSection.lambda$0(EngineResultSection.java:262)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1150)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1039)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:23.598
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.ws.consumption.ui.doc.user_1.0.700.v201309242123 [550]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:23.803
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.ws.axis2.ui.doc.user_1.0.200.v201309242118 [546]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:23.818
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.command.env.doc.user_1.5.400.v201309242123 [836]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:23.995
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.dtdeditor.doc.user_1.0.700.v201208081537 [859]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.011
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.j2ee.doc.user_1.1.400.v201008122207 [483]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.201
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xmleditor.doc.user_1.0.700.v201707252002 [954]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.219
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.xsdeditor.doc.user_1.0.800.v201707252002 [957]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.235
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.ejb.doc.user_1.1.301.v201105130955 [478]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.250
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.ws.axis.ui.doc.user_1.1.200.v201309242123 [539]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.271
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.wsdl.ui.doc.user_1.0.850.v201309242123 [940]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.286
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.webtools.doc.user_1.0.500.v201208081537 [930]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.297
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.server.ui.doc.user_1.1.600.v201309182117 [917]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.467
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.ws.doc.user_1.0.700.v201612121628 [560]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.483
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.wsi.ui.doc.user_1.0.750.v201309242123 [944]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.499
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.jst.server.ui.doc.user_1.0.600.v201309182117 [528]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 2 0 2018-09-02 19:48:24.514
+!MESSAGE Unable to consume Lucene index from bundle 'org.eclipse.wst.sse.doc.user_1.1.100.v201208081537 [920]'. The index should be rebuilt with Lucene 6.1.
+
+!ENTRY org.eclipse.help.base 4 4 2018-09-02 19:48:34.812
+!MESSAGE Help documentation could not be indexed completely.
+!SUBENTRY 1 org.eclipse.help.base 4 4 2018-09-02 19:48:34.812
+!MESSAGE Help document /org.eclipse.wst.jsdt.doc/reference/extension-points/org_eclipse_wst_jsdt_core_codeFormatter.html cannot be opened.
+!SESSION 2018-09-02 20:18:14.834 -----------------------------------------------
+eclipse.buildId=4.7.2.M20171130-0510
+java.version=1.8.0_171
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2018-09-02 20:19:10.924
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Gam Fam'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.ltk.ui.refactoring 4 10000 2018-09-02 21:06:38.739
+!MESSAGE Internal Error
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Problems encountered while moving resources.
+	at org.eclipse.core.internal.resources.Resource.move(Resource.java:1514)
+	at org.eclipse.ltk.core.refactoring.resource.RenameResourceChange.perform(RenameResourceChange.java:115)
+	at org.eclipse.ltk.core.refactoring.CompositeChange.perform(CompositeChange.java:280)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation$1.run(PerformChangeOperation.java:257)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.executeChange(PerformChangeOperation.java:305)
+	at org.eclipse.ltk.internal.ui.refactoring.UIPerformChangeOperation.executeChange(UIPerformChangeOperation.java:96)
+	at org.eclipse.ltk.core.refactoring.PerformChangeOperation.run(PerformChangeOperation.java:216)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2240)
+	at org.eclipse.core.internal.resources.Workspace.run(Workspace.java:2267)
+	at org.eclipse.ltk.internal.ui.refactoring.WorkbenchRunnableAdapter.run(WorkbenchRunnableAdapter.java:86)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: File already exists on disk: C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\src\app\app-routing.module.ts.
+!SUBENTRY 1 org.eclipse.core.resources 4 4 2018-09-02 21:06:38.740
+!MESSAGE Problems encountered while moving resources.
+!SUBENTRY 2 org.eclipse.core.filesystem 4 268 2018-09-02 21:06:38.740
+!MESSAGE File already exists on disk: C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\src\app\app-routing.module.ts.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-02 21:55:38.962
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-09-02 21:55:38.974
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY com.genuitec.eclipse.typescript 4 0 2018-09-02 21:57:40.044
+!MESSAGE Error: Dynamic fixes are not supported for multiple files
+!STACK 0
+com.genuitec.eclipse.typescript.services.internal.Bridge$BridgeException: Error: Dynamic fixes are not supported for multiple files
+	at <static>.<anonymous>(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\language\quickfix\fixes.js:60:23)
+	at Array.forEach(native)
+	at <static>.<anonymous>(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\language\quickfix\fixes.js:58:59)
+	at Array.forEach(native)
+	at TSCodeFixDynamicProvider.createDynamicQuickFix(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\language\quickfix\fixes.js:58:15)
+	at TSQuickFixProvider.createDynamicQuickFixes(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\language\quickfix\fixes.js:33:33)
+	at LanguageServiceHost.createDynamicQuickFixes(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\language\languageServiceHost.js:224:59)
+	at LanguageServiceProvider.createDynamicQuickFixes(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\language\languageServiceProvider.js:31:21)
+	at LanguageEndpoint.prepareDynamicQuickFixes(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\language\languageEndpoint.js:625:43)
+	at Main.processRequest(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\main.js:91:33)
+	at <js-bridge.call>(Unknown Source)
+	at com.genuitec.eclipse.typescript.services.internal.Bridge.processRequest(Bridge.java:234)
+	at com.genuitec.eclipse.typescript.services.internal.Bridge.call(Bridge.java:161)
+	at com.genuitec.eclipse.typescript.services.language.LanguageEndpoint.prepareDynamicQuickFixes(LanguageEndpoint.java:342)
+	at com.genuitec.eclipse.typescript.text.FileLanguageService.prepareDynamicQuickFixes(FileLanguageService.java:320)
+	at com.genuitec.eclipse.typescript.quickfix.TypeScriptQuickAssistProcessor.processAnnotation(TypeScriptQuickAssistProcessor.java:207)
+	at com.genuitec.eclipse.typescript.quickfix.TypeScriptQuickAssistProcessor.computeQuickAssistProposals(TypeScriptQuickAssistProcessor.java:97)
+	at com.genuitec.eclipse.typescript.text.AbstractTextHover.getHoverInfo2(AbstractTextHover.java:122)
+	at com.genuitec.eclipse.typescript.text.TextHover.getHoverInfo2(TextHover.java:74)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+
+!ENTRY com.genuitec.eclipse.typescript 4 0 2018-09-02 21:57:40.051
+!MESSAGE Dynamic quick fix of type dynamic:ts:2339:ts-codefix has not been provided by TypeScript bridge.
+
+!ENTRY com.genuitec.eclipse.typescript 4 0 2018-09-02 22:11:07.397
+!MESSAGE Error: Debug Failure. False expression.
+!STACK 0
+com.genuitec.eclipse.typescript.services.internal.Bridge$BridgeException: Error: Debug Failure. False expression.
+	at NodeObject.addSyntheticNodes(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\typescript\2.5.3\node_modules\typescript\lib\typescript.js:90626:26)
+	at <static>.processNode(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\typescript\2.5.3\node_modules\typescript\lib\typescript.js:90669:29)
+	at NodeObject.createChildren(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\typescript\2.5.3\node_modules\typescript\lib\typescript.js:90684:21)
+	at NodeObject.getChildren(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\typescript\2.5.3\node_modules\typescript\lib\typescript.js:90710:22)
+	at <static>.iterate(C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\node_modules\tsutils\util\util.js:369:26)
+	at Array.forEach(native)
+	at <static>.iterate(C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\node_modules\tsutils\util\util.js:369:50)
+	at Array.forEach(native)
+	at <static>.iterate(C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\node_modules\tsutils\util\util.js:369:50)
+	at Array.forEach(native)
+	at <static>.iterate(C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\node_modules\tsutils\util\util.js:369:50)
+	at Array.forEach(native)
+	at <static>.iterate(C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\node_modules\tsutils\util\util.js:369:50)
+	at <static>.forEachToken(C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\node_modules\tsutils\util\util.js:370:7)
+	at Object.forEachComment(C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\node_modules\tsutils\util\util.js:400:12)
+	at <static>.getDisableMap(C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\node_modules\tslint\lib\enableDisableRules.js:55:11)
+	at Object.removeDisabledFailures(C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\node_modules\tslint\lib\enableDisableRules.js:37:15)
+	at Linter.getAllFailures(C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\node_modules\tslint\lib\linter.js:141:37)
+	at Linter.lint(C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\schoolandstudentsangular\node_modules\tslint\lib\linter.js:100:33)
+	at TSLint5.lint(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\tslint\tslint5.js:14:16)
+	at <static>.<anonymous>(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\tslint\tslintEndpoint.js:117:42)
+	at Set.forEach(native)
+	at TSLintEndpoint.validate(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\tslint\tslintEndpoint.js:103:23)
+	at LanguageEndpoint.performValidation(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\language\languageEndpoint.js:610:43)
+	at Main.processRequest(C:\Users\Gam Fam\Downloads\eclipse-jee-oxygen-2-win32-x86_64\eclipse\plugins\com.genuitec.eclipse.typescript_2.5.3.201808091743\bin\bridge\main.js:91:33)
+	at <js-bridge.call>(Unknown Source)
+	at com.genuitec.eclipse.typescript.services.internal.Bridge.processRequest(Bridge.java:234)
+	at com.genuitec.eclipse.typescript.services.internal.Bridge.call(Bridge.java:161)
+	at com.genuitec.eclipse.typescript.services.language.LanguageEndpoint.performValidation(LanguageEndpoint.java:323)
+	at com.genuitec.eclipse.typescript.text.FileLanguageService.getDiagnostics(FileLanguageService.java:293)
+	at com.genuitec.eclipse.typescript.text.reconciler.ValidationReconcilingStrategy.addAnnotations(ValidationReconcilingStrategy.java:78)
+	at com.genuitec.eclipse.typescript.text.reconciler.AbstractAnnotationReconcilingStrategy.reconcile(AbstractAnnotationReconcilingStrategy.java:83)
+	at com.genuitec.eclipse.typescript.text.reconciler.ValidationReconcilingStrategy.reconcile(ValidationReconcilingStrategy.java:73)
+	at com.genuitec.eclipse.typescript.text.reconciler.ValidationReconcilingStrategy.reconcile(ValidationReconcilingStrategy.java:63)
+	at com.genuitec.eclipse.typescript.text.FileLanguageService.reconcileValidationAnnotations(FileLanguageService.java:365)
+	at com.genuitec.eclipse.typescript.text.reconciler.Reconciler.reconcile(Reconciler.java:171)
+	at com.genuitec.eclipse.typescript.text.reconciler.Reconciler.access$4(Reconciler.java:154)
+	at com.genuitec.eclipse.typescript.text.reconciler.Reconciler$1.run(Reconciler.java:146)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$201(Unknown Source)
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

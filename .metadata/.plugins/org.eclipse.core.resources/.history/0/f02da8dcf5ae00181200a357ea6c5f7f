@@ -1,0 +1,13 @@
+export class student {
+  id: number;
+  familyname: string;
+    givenname: string;
+    department: string;
+    subject: string;
+    mentorid: number;
+    givenamementor: string;
+    familynamementor: string;
+    dob: number;
+    admitdate: number;
+    anticipatedgraduationdate: number;
+  }

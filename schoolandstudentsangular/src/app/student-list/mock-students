@@ -1,0 +1,28 @@
+import { Student-list } from './student-list';
+
+export const STUDENTS: Student[] = [
+  { id: 13741, familyname: 'Ruiz' givenname: 'Jackie' department: 'Physics' subject: 'Dynamics' mentorid: '87505' familynamementor: 'Conway' givennamementor: 'Aaron' dob: '07/08/1990' admitdate: 'May 4, 2016' anticipatedgraduationdate: 'May 2018' school:'University of Cambridge'},
+  { id: 13742, familyname: 'Burns' givenname: 'Marilyn' department: 'Physics' subject: 'Work, energy and power' mentorid: '96870 familynamementor: 'Jefferson'  givennamementor: 'Dusty' dob: '11/21/1991' admitdate: 'May 4, 2016' anticipatedgraduationdate: 'May 2018'school:'University of Cambridge'
+   },
+  { id: 13743, familyname: 'Hobbs'  givenname: 'Jeffery'  department: 'Computer Science'  subject: 'Software Development'  mentorid: '87505'  familynamementor: 'Conway'  givennamementor: 'Aaron'  dob: '10/15/1993'  admitdate: 'May 4, 2016'  anticipatedgraduationdate: 'May 2018' school:'University of Cambridge'
+   },
+  { id: 13744, familyname: 'Battle'  givenname: 'Blake' department: 'Computer Science'  subject: 'Software Development'  mentorid: '96870' familynamementor: 'Jefferson'  givennamementor: 'Dusty'  dob: '07/23/1984' admitdate: 'May 4, 2016'   anticipatedgraduationdate: 'May 2018'school:'University of Cambridge' 
+  },
+  { id: 13745, familyname:'Hahn'  givenname:'Derrick'  department:'Computer Science'  subject:'Algorithm design and problem-solving'  mentorid:'26065'  familynamementor:'McMahon'  givennamementor:'Trent'  dob:'01/07/1995' admitdate: 'Nov 4, 2016'  anticipatedgraduationdate:'Nov 2018 school:'University of Cambridge'
+  },
+  { id: 13746, familyname: 'Collins'  givenname:'Nancy'  department:'Εlectrical & Electronics Engineering'  subject:'Circuit Theory & Networks'  mentorid:'96870'  familynamementor:'Jefferson'  givennamementor:'Dusty'  dob: '11/21/1991'  admitdate: 'Nov 4, 2016'  anticipatedgraduationdate:'Nov 2018'school:University of Cambridge'
+   },
+  { id: 13747, familyname:'Avila'  givenname:'Krista'  department:'Εlectrical & Electronics Engineering'  subject:'Mathematics'  mentorid:'66825'  familynamementor:'McIntosh' givennamementor:'Destiny'  dob: '10/15/1993'  admitdate:'May 4, 2016'  anticipatedgraduationdate:'May 2018'school:'University of Cambridge'
+   },
+  { id: 13748, familyname:'Leonard'  givenname:'Crystal  department:'Physical Education'  subject:'Anatomy and physiology'  mentorid:'88205'  familynamementor:'Harding'  givennamementor:' Sue'  dob:'07/23/1984'  admitdate: 'May 4, 2016'  anticipatedgraduationdate:'May 2018'school:'University of Cambridge'
+  },
+  { id: 13749, familyname:'Horn'  givenname:'Tia' department:'Physical Education'  subject:'Health, fitness and training'  mentorid:'19770'  familynamementor:'Ballard'  givennamementor:'Kaylee'  dob:'07/23/1984'  admitdate:'May 4, 2016'  anticipatedgraduationdate: 'May 2018' school:'University of Cambridge'
+   },
+  { id: 13750, familyname:'Burch'  givenname:'Kathleen'  department:'Physical Education'  subject:'Skill acquisition and psychology' mentorid:'72152  familynamementor:'McConnell'  givennamementor:'Cindy'  dob:'07/23/1984'  admitdate:'May 4,2016'  anticipatedgraduationdate:'May 2018'school:'University of Cambridge'
+   
+  { id: 13751, familyname:'O'neill'  givenname:'Mitchell  department:'Architecture and History of Art' subject:'Art, religion and society'  mentorid:'98415  familynamementor:'Mcleod'  givennamementor:'Rex'  dob:'07/23/1984' admitdate:'May 4, 2016'  anticipatedgraduationdate:'May 2018'school:'University of Cambridge'
+   }
+  { id: 14752, familyname:'Hammond' givenname:'William'  department:'Architecture and History of Art'  subject:'The art and architecture of antiquity'  mentorid:'22011'  familynamementor:'Meyer' givennamementor:'Sam'  dob:'07/23/1984 admitdate:'May 4, 2016'  anticipatedgraduationdate:'May 2018'school:'University of Cambridge' 
+  
+];
+

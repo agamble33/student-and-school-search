@@ -1,0 +1,2 @@
+INDEX VERSION 1.4+C:\Users\Gam Fam\Desktop\schoolstudentsangularapp\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1779583764.index

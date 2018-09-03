@@ -1,0 +1,33 @@
+{{student}}
+<h2>School Students</h2>
+<ul class="sudents">
+  <li *ngFor="students of schools"
+  routerLink="/detail/{{student.id}}">
+    [class.selected]="student === selectedStudent"
+    (click)="onSelect(student)">
+    <span class="badge">{{student.id}}</span> {{student.familyname}}
+  </li>
+</ul>
+ <app-student-detail [student]="selectedStudent"></app-student-detail>
+<div *ngIf="selectedStudent">
+
+<h2>{{selectedStudent.familyname | uppercase}} Details</h2>
+  <label>name:
+    <input [(ngModel)]="student.familyname" placeholder="name">
+  </label>
+<div><span>id: </span>{{student.id}}</div>
+<div><span>name: </span>{{student.familyname}}</div>
+<div><span>givenname: </span>{{student.givenname}}</div>
+<div><span>department: </span>{{student.department}}</div>
+<div><span>subject: </span>{{student.subject}}</div>
+<div><span>mentorid: </span>{{student.mentorid}}</div>
+<div><span>familynamementor: </span>{{student.familynamementor}}</div>
+<div><span>givennamementor: </span>{{student.givennamementor}}</div>
+<div><span>dob: </span>{{student.dob}}</div>
+<div><span>admitdate: </span>{{student.admitdate}}</div>
+<div><span>anticipatedgraduationdate: </span>{{student.anticipatedgraduationdate}}
+</div>
+<div><span>school: </span>{{student.school}}
+</div>
+
+</div>

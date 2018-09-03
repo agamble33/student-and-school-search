@@ -1,0 +1,31 @@
+/* Application-wide Styles */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[text], button {
+  color: #888;
+  font-family: Cambria, Georgia;
+}
+/* everywhere else */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+Final code review
+The source code for this tutorial and the complete Tour of Heroes global styles are available in the live example / download example.
+
+Here are the code files discussed on this page.
+
+src/app/app.component.ts
+src/app/app.component.html
+src/styles.css (excerpt)
+content_copy

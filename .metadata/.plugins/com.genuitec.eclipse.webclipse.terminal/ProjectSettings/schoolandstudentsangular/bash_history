@@ -1,0 +1,23 @@
+ng g component student-list 
+ng g component student-list/student-detail 
+ng g service student 
+ng g component messages 
+ng g service messages 
+h
+import { NgModule } from '@angular/core';
+    import { RouterModule, Routes } from '@angular/router';
+    import { DashboardComponent } from '../dashboard/dashboard.component'
+    const routes: Routes = [
+        {             path: '',;             component: DashboardComponent,;         },;     ];     @NgModule({
+        imports: [
+            RouterModule.forRoot(routes)
+        exports: [
+            RouterModule
+        ],
+        declarations: []
+    })
+    export class AppRoutingModule { }
+    h
+ ng g component dashboard
+ng g component dashboard 
+ng g component student-search 

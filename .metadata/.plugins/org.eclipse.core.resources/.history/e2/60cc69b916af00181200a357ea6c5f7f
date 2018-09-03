@@ -1,0 +1,28 @@
+import { Student-list } from './student-list';
+
+export const STUDENTS: Student[] = [
+  { id: 13741, familyname: 'Ruiz' givenname: 'Jackie' department: 'Physics' subject: 'Dynamics' mentorid: '87505' familynamementor: 'Conway' givennamementor: 'Aaron' dob: '07/08/1990' admitdate: 'May 4, 2016' anticipatedgraduationdate: 'May 2018'},
+  { id: 13742, familyname: 'Burns' givenname: 'Marilyn' department: 'Physics' subject: 'Work, energy and power' mentorid: '96870 familynamementor: 'Jefferson'  givennamementor: 'Dusty' dob: '11/21/1991' admitdate: 'May 4, 2016' anticipatedgraduationdate: 'May 2018'
+   },
+  { id: 13743, familyname: 'Hobbs'  givenname: 'Jeffery'  department: 'Computer Science'  subject: 'Software Development'  mentorid: '87505'  familynamementor: 'Conway'  givennamementor: 'Aaron'  dob: '10/15/1993'  admitdate: 'May 4, 2016'  anticipatedgraduationdate: 'May 2018'
+   },
+  { id: 13744, familyname: 'Battle'  givenname: 'Blake' department: 'Computer Science'  subject: 'Software Development'  mentorid: '96870' familynamementor: 'Jefferson'  givennamementor: 'Dusty'  dob: '07/23/1984' admitdate: 'May 4, 2016'   anticipatedgraduationdate: 'May 2018' 
+  },
+  { id: 13745, familyname:  givenname:  department:  subject:  mentorid:  familynamementor:  givennamementor:  dob: admitdate:  anticipatedgraduationdate: 
+  },
+  { id: 13746, familyname:  givenname:  department:  subject:  mentorid:  familynamementor:  givennamementor:  dob:  admitdate:  anticipatedgraduationdate:
+   },
+  { id: 13747, familyname:  givenname:  department:  subject:  mentorid:  familynamementor: givennamementor:  dob:  admitdate:  anticipatedgraduationdate:
+   },
+  { id: 13748, familyname:  givenname:  department:  subject:  mentorid:  familynamementor:  givennamementor:  dob:  admitdate:  anticipatedgraduationdate:
+  },
+  { id: 13749, familyname:  givenname:  department:  subject:  mentorid:  familynamementor:  givennamementor:  dob:  admitdate:  anticipatedgraduationdate: 
+   },
+  { id: 13750, familyname:  givenname:  department:  subject:  mentorid:  familynamementor:  givennamementor:  dob:  admitdate:  anticipatedgraduationdate: 
+   
+  { id: 13751, familyname:  givenname:  department: subject:  mentorid:  familynamementor:  givennamementor:  dob: admitdate:  anticipatedgraduationdate: 
+   }
+  { id: 14752, familyname givenname:  department:  subject:  mentorid:  familynamementor: givennamementor:  dob: admitdate:  anticipatedgraduationdate: 
+  
+];
+
